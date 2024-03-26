@@ -38,18 +38,21 @@
             color: #fff; /* Cambiar el color del texto a blanco */
         }
         input[type="submit"] {
-            background-color: #4caf50;
+            background-color: #d32f2f; /* Rojo oscuro */
             color: white;
             cursor: pointer;
         }
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #b71c1c; /* Rojo mÃ¡s claro al pasar el mouse */
         }
         label {
             color: #fff; /* Cambiar el color del texto a blanco */
         }
         p a {
-            color: #4caf50; /* Cambiar el color del enlace */
+            color: #d32f2f; /* Rojo oscuro */
+        }
+        p a:hover {
+            color: #b71c1c; /* Rojo mÃ¡s claro al pasar el mouse */
         }
     </style>
 </head>
