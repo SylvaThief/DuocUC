@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar SesiÃ³n</title>
+    <title>Iniciar Sesión</title>
     <style>
         /* Estilos CSS para mejorar la apariencia del formulario (opcional) */
         body {
@@ -46,16 +46,16 @@
 </head>
 <body>
     <form action="/login" method="post">
-        <h2>Iniciar SesiÃ³n</h2>
-        <label for="email">Correo electrÃ³nico:</label>
+        <h2>Iniciar Sesión</h2>
+        <label for="email">Correo electrónico:</label>
         <input type="text" id="email" name="email" required>
 
-        <label for="password">ContraseÃ±a:</label>
+        <label for="password">Contraseña:</label>
         <input type="password" id="password" name="password" required>
 
-        <input type="submit" value="Iniciar SesiÃ³n">
+        <input type="submit" value="Iniciar Sesión">
 
-        <p><a href="/restablecer">Â¿Olvidaste tu contraseÃ±a?</a></p>
+        <p><a href="/restablecer">¿Olvidaste tu contraseña?</a></p>
     </form>
 </body>
 </html>
