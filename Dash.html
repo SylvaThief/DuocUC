@@ -1,54 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dash</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #222;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        form {
-            background-color: #333;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            max-width: 500px;
-            width: 100%;
-        }
-        input[type="menu"] {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-            border: 1px solid #666;
-            border-radius: 5px;
-            box-sizing: border-box;
-            background-color: #444;
-            color: #fff; /* Cambiar el color del texto a blanco */
-        }
-        input[type="menu"] {
-            background-color: #d32f2f; /* Rojo oscuro */
-            color: white;
-            cursor: pointer;
-        }
-        input[type="menu"]:hover {
-            background-color: #b71c1c; /* Rojo mÃ¡s claro al pasar el mouse */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dash</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #222;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+    input[type="button"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #666;
+      border-radius: 5px;
+      box-sizing: border-box;
+      background-color: #d32f2f; /* Rojo oscuro */
+      color: white;
+      cursor: pointer;
+    }
+    input[type="button"]:hover {
+      background-color: #b71c1c; /* Rojo más claro al pasar el mouse */
+    }
+  </style>
 </head>
 <body>
-    <form>
-        <h2>Bienvenido Tester!</h2>
-        <Label>Contenido:</Label>
-        <input type="menu" value="Ir al menú">
-    </form>
+  <form>
+    <h2>Bienvenido Tester!</h2>
+    <label for="menuButton">Contenido:</label>
+    <input type="button" id="menuButton" value="Ir al menú">
+  </form>
 </body>
 </html>
